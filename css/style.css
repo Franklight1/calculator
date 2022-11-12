@@ -1,0 +1,54 @@
+div.calc{
+    width: 30%;
+    background-color: burlywood;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+div.scrn{
+    width: 90%;
+    height: 12vh;
+    background-color: whitesmoke;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 2%;
+    box-shadow: 1px 1px 1px black;
+}
+
+div.buttons{
+    width: 90%;
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+div.sym_c,.sym,.bt1,.bt2,.bt3,.bt4,.bt5,.bt6,.bt7,.bt8,.bt9,.bt0,.sym_zro{
+    height: 10vh;
+    background-color:chartreuse;
+    margin-left: 1%;
+    flex: 1 1 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    box-shadow: 1px 1px 0px beige;
+}
+div.sym_equ{
+    height: 10vh;
+    flex: 1 1 20%;
+    grid-row: span 4;
+    background-color: rgb(42, 147, 165);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 0px hotpink;
+}
